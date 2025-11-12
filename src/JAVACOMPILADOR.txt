@@ -1,0 +1,12 @@
+1° - Use o comando "javac -d bin src/dados/*.java src/interfaceusuario/*.java"
+-> javac compila os codigos .java mencionados e criara as classes .class no diretorio bin
+nesse caso, o caminho "src/dados" e para chegar ate o caminho das classes e o 
+"*" significa que e para fazer de todas as classes desse diretorio.
+
+
+
+2° - Use o comando "java -cp bin principal.main.Main" 
+-> Para compilar o codigo sendo
+"bin" o diretorio das classes "principal.main" o diretorio da classe principal(main)
+e "Main" o nome do arquivo que contem a classe main
+(ficou confuso por conta dos diretorios chamados main mas e safe).
